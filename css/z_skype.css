@@ -1,0 +1,145 @@
+html,body{width: 100%;}
+.z_center{width: 960px;margin: 0 auto;}
+header{
+	width: 100%;
+	height: 438px;
+	background: url(../imags/z_skype/headerbg.jpg)  no-repeat;
+	background-size:100% 100%;
+}
+header h1{
+	width: 400px;
+	font-size: 35px;
+	line-height: 40px;
+	margin: 30px 0 34px 0;
+}
+header  .z_andro{
+	width: 150px;
+	line-height: 45px;
+	background: #7fba00;
+	border-radius: 40px;
+	padding: 0 28px;	
+	font-size: 19px;
+}
+header  .z_andro a{color: #fff;}
+header  .z_andro:hover{box-shadow:rgba(116,170,0,1) 0px 0px 2px;background:#74aa00;}
+header  .z_logWeb{line-height: 44px;font-size: 14px;padding: 0 38px;}
+header  .z_logWeb a{color: #000;}
+header  .z_logWeb a:hover{text-decoration: underline;}
+/*-------------------------------------头部样式end-----------------------------------*/
+.z_banner{
+	width: 100%;
+	background: url(../imags/z_skype/skype09.jpg) repeat-x;
+	padding-top: 30px;
+}			
+.z_banner .z_center {overflow: hidden;height: 380px;position: relative;}
+.z_banner .zimg {width: 5760px;position: absolute;top:0;}
+.z_banner .zimg .z_ban {
+	width: 960px;
+	height: 280px;
+	display: flex;
+	justify-content: space-between;	
+}
+.zimg .z_ban p{
+	display: block;
+	padding-left: 30px;
+	height: 280px;
+	width: 470px;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: #0078ca;
+	font-size: 16px;
+}
+.zimg .z_ban p i{font-style: normal;}
+.zimg .z_ban p i:hover{text-decoration: underline;}
+.zimg .pic1 .z_p1{cursor: initial;background: url(../imags/z_skype/banbg01.jpg) no-repeat;}
+.zimg .pic1 .z_p2{padding-top: 150px;background: url(../imags/z_skype/banbg02.jpg) no-repeat;}
+.zimg .pic2 .z_p3{padding-top: 150px;background: url(../imags/z_skype/banbg03.jpg) no-repeat;}
+.zimg .pic2 .z_p4{padding-top: 150px;background: url(../imags/z_skype/banbg04.jpg) no-repeat;}
+.zimg .pic3 .z_p5{padding-top: 200px;background: url(../imags/z_skype/banbg05.jpg) no-repeat;}
+.zimg .pic3 .z_p6{padding-top: 180px;color: #fff;background: url(../imags/z_skype/banbg06.jpg) no-repeat;}
+.zimg .pic4 .z_p7{padding-top: 150px;padding-left: 235px;color: #fff;background: url(../imags/z_skype/banbg07.jpg) no-repeat;}
+.zimg .pic4 .z_p8{padding-top: 130px;padding-left: 235px;background: url(../imags/z_skype/banbg08.jpg) no-repeat;}
+.zimg .pic5 .z_p9{padding-top: 130px;padding-left: 235px;background: url(../imags/z_skype/banbg09.jpg) no-repeat;}
+.zimg .pic5 .z_p10{padding-top: 150px;color: #fff;background: url(../imags/z_skype/banbg10.jpg) no-repeat;}
+.z_banner .zbtn{position: absolute;top: 300px;left: 402px;}
+.z_banner .zbtn button{
+	background: #c0dce6;
+	width: 16px;
+	height: 16px;
+	margin-right: 15px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.z_banner .zbtn button.active {background: #00aff0;}
+/*-------------------------------------轮播图样式end-----------------------------------*/
+.z_quick{width: 100%;}
+.z_quick h2{font-size: 30px;line-height: 92px;}
+.z_quick .z_mid{display: flex;justify-content: space-between;}
+.z_mid .z_ds{background: #e4eef2;width: 258px;padding: 30px;}
+.z_mid .z_ds h3{font-size: 24px;padding-bottom: 20px;}
+.z_mid .z_ds img{display: block;}
+.z_mid .z_ds .z_content{font-size: 15px;line-height: 20px;padding-bottom: 20px;}
+.z_mid .z_ds .z_more{font-size: 15px;color: #0078ca;cursor: pointer;}
+.z_mid .z_ds .z_more:hover{text-decoration:underline ;}
+.z_quick .z_video{padding: 20px 0 43px 0;}
+/*-------------------------------------快速入门样式end-----------------------------------*/
+.z_tan1,.z_tan2{
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background:rgba(226,236,238,0.8);
+	display: none;
+}
+.z_tan1 .z_inner1,.z_tan2 .z_inner2{
+	width: 960px;
+	height: 540px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-270px;
+	margin-left: -480px;
+}
+.z_tan1 .z_inner1{background-image: url(../imags/z_skype/w1_03.jpg);}
+.z_tan2 .z_inner2{background-image: url(../imags/z_skype/w3_03.jpg);}
+.z_tan1 .z_inner1 .z_joinus{width: 100px;}
+.z_tan2 .z_inner2 .z_joinus{width: 180px;}
+.z_tan1 .z_inner1 .z_joinus,.z_tan2 .z_inner2 .z_dial{
+	display: block;
+	padding: 0 27px;
+	line-height: 45px;
+	color: #fff;
+	font-size: 18px;
+	background: #7fba00;
+	border-radius: 40px;
+	position: absolute;
+	cursor: pointer;
+}
+.z_tan1 .z_inner1 .z_joinus{left: 570px;top: 230px;}
+.z_tan2 .z_inner2 .z_dial{left: 570px;top: 340px;}
+.z_tan1 .z_inner1 .z_joinus:hover{box-shadow:rgba(116,170,0,1) 0px 0px 2px;background:#74aa00;}
+.z_tan2 .z_inner2 .z_dial:hover{box-shadow:rgba(116,170,0,1) 0px 0px 2px;background:#74aa00;}
+.z_tan1 .z_inner1 .z_close1,.z_tan2 .z_inner2 .z_close2{
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background: #000000;
+	color: #FFFFFF;
+	line-height: 38px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	position: absolute;
+	right: -20px;
+	top: -20px;
+	cursor: pointer;
+} 
+.z_tan1 .z_inner1 .z_close1:hover{box-shadow:rgba(0,0,0,1) 0px 0px 2px;}
+.z_tan2 .z_inner2 .z_close2:hover{box-shadow:rgba(0,0,0,1) 0px 0px 2px;}
+/*-------------------------------------弹窗样式end-----------------------------------*/
